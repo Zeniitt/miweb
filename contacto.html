@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mi primera pagina</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body class="fondo">
+ <div class="container-nav">
+        <nav class="navbar" role="navigation">
+          <a href="#" class="brand">Mi página web</a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Servicios.html">Services</a></li>
+            <li><a href="contacto.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+ </div>
+    <div class="cajita">    
+        <h1 class="titulo1"> Contacto </h1>
+    </div>
+                
+              <h2 class="parrafos">¡Contáctanos para cualquier consulta o solicitud de información! </h2>
+            <form id="myForm">
+              <label for="Nombre">Nombre:</label>
+                <input type="text" id="nombre" name="Nombre" required>
+                
+
+                <label for="Apellido">Apellido:</label>
+                <input type="text" id="Apellido" name="Apellido" required>
+                
+
+                <label for="Pais">Pais:</label>
+                <select id="Pais" name="Pais">
+                  <option value="Argentina">Argentina</option>
+                  <option value="Venezuela"> Venezuela</option>
+                </select>
+                
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Enviar</button>
+                
+            </form>
+<script src="java.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+.titulo1{
+
+color: rgb(63, 53, 43);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+text-align: center;
+}
+
+.titulo2{
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fondo{
+    background-color: rgb(139, 114, 114);
+    
+}
+.parrafos{
+
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.listas{
+
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  width: 900px;
+
+
+}
+
+.cajita{
+
+    padding: 20px;
+    border: 20px solid black;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    }
+    
+#titulofondo{
+
+background-color: rgb(6, 37, 73);
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    }
+    
+.column {
+    flex: 1;
+    padding: 10px;
+    }
+
+    .container-nav {
+        display: flex;
+        padding: 10px;
+        height: 50px;
+        background-color: rgba(129, 13, 13, 0.322);
+      }
+      
+      
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      
+      
+    .brand {
+        display: flex;
+        align-items: center;
+      }
+      
+      
+    li>a {
+        padding: 8px 24px;
+      }
+      
+      
+    li {
+        list-style-type: none;
+      }
+      
+      
+    a {
+        color: white;
+        text-decoration:none;
+      }
+      
+      
+    .nav-links {
+        display: flex;
+        align-items: center;
+      }
+      
+      
+    .button-menu-toggle {
+        display: none;
+      }
+    
+      @media (max-width: 768px) {
+        .column {
+          flex: 100%;
+        }
+      
+      
+    .nav-links {
+          display: none;
+        }
+    .button-menu-toggle {
+            display: block;
+            background-color: white;
+            border:none;
+            border-radius: 50px;
+            padding: 0 24px;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 20px;
+          }
+         
+    .nav-links.nav-links-responsive {
+            position: absolute;
+            display: flex;
+            background-color: rgba(20,20,20,0.95);
+            width: 100%;
+            height: 100%;
+            top: 70px;
+            left: 0;
+            flex-direction: column;
+            padding-top: 200px;
+            align-items: center;
+            gap:70px;
+            font-size: 40px;
+        
+        
+          }
+        }
+.foot{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 200px;
+  background-color: rgb(224, 183, 228);
+  
+
+}
+
+.greeting{
+
+  text-align: center;
+}
+    
